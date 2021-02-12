@@ -1,9 +1,12 @@
 import React from 'react'
+import Nav from './components/Nav/Nav'
 
 function App() {
     return (
         <div className="box-content w-screen h-screen bg-white dark:bg-gray-800">
-            <nav className="h-20 w-100 bg-white text-black-50"></nav>
+            <Nav />
+            <main className="h-auto w-screen"></main>
+            <footer className="absolute bottom-0 w-screen h-28 bg-white text-black-50"></footer>
         </div>
     )
 }
